@@ -1,0 +1,16 @@
+{
+  "name": "ctxpack",
+  "version": "1.0.0",
+  "description": "Résume un projet dans .claude/CONTEXT.md pour que Claude lise moins et consomme moins de tokens.",
+  "type": "module",
+  "bin": {
+    "ctxpack": "bin/ctxpack.mjs"
+  },
+  "files": ["bin", "skills", "templates"],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Varhex by Ȥrk Team (https://varhex.com)",
+  "license": "MIT",
+  "repository": "github:zrk-lol/claude-token-saver"
+}
